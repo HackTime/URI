@@ -1,0 +1,38 @@
+
+SUBMISSÃO # 7341450
+
+Problema:
+    1467 - Zerinho ou Um 
+Resposta:
+    Accepted 
+Linguagem:
+    Python 2.7 (Python 2.7.6) [+1s] 
+Tempo:
+    0.072s 
+Tamanho:
+    330 Bytes 
+Memória:
+    - 
+Submissão:
+    16/06/2017 15:39:31 
+
+CÓDIGO FONTE
+while True:
+  try:
+    j = raw_input().split()
+    a = j[0]
+    b = j[1]
+    c = j[2]
+    a = int(a)
+    b = int(b)
+    c = int(c)
+    if a == b == c:
+      print "*"
+    if a != b and a != c:
+      print "A"
+    if b != a and b != c:
+      print "B"
+    if c != a and c != b:
+      print "C"
+  except:
+    break
