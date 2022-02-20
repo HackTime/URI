@@ -1,0 +1,30 @@
+
+SUBMISSÃO # 2349925
+
+Problema:
+    1017 - Gasto de Combustível 
+Resposta:
+    Accepted 
+Linguagem:
+    C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s] 
+Tempo:
+    0.000s 
+Tamanho:
+    212 Bytes 
+Memória:
+    - 
+Submissão:
+    15/06/2015 09:09:06 
+
+CÓDIGO FONTE
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double a, b;
+    while(cin >> a >> b) {
+        cout << fixed << setprecision(3) << a*b/12 << endl;
+    }
+}
