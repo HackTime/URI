@@ -1,0 +1,29 @@
+
+SUBMISSÃO # 2241176
+
+Problema:
+    1006 - Média 2 
+Resposta:
+    Accepted 
+Linguagem:
+    C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s] 
+Tempo:
+    0.000s 
+Tamanho:
+    205 Bytes 
+Memória:
+    - 
+Submissão:
+    26/05/2015 14:16:34 
+
+CÓDIGO FONTE
+#include <cstdio>
+
+int main(){
+    float a, b, c;
+    scanf("%f", &a);
+    scanf("%f", &b);
+    scanf("%f", &c);
+    printf("MEDIA = %.1f\n", (a * 2.0 + b * 3.0 + c * 5.0) / 10.0);
+    return 0;
+}
