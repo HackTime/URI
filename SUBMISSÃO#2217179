@@ -1,0 +1,20 @@
+SUBMISSÃO # 2217179
+
+Problema:
+    1035 - Teste de Seleção 1 
+Resposta:
+    Runtime error 
+Linguagem:
+    Python 2.7 (Python 2.7.6) [+1s] 
+Tempo:
+    0.008s 
+Tamanho:
+    14 Bytes 
+Memória:
+    - 
+Submissão:
+    22/05/2015 15:17:20 
+
+CÓDIGO FONTE
+
+5,6,7,8 = (map
