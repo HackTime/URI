@@ -1,0 +1,23 @@
+
+SUBMISSÃO # 2218039
+
+Problema:
+    1059 - Números Pares 
+Resposta:
+    Accepted 
+Linguagem:
+    Python 2.7 (Python 2.7.6) [+1s] 
+Tempo:
+    0.004s 
+Tamanho:
+    54 Bytes 
+Memória:
+    - 
+Submissão:
+    22/05/2015 16:31:53 
+
+CÓDIGO FONTE
+n = 2
+while n <= 100 :
+    print (n);
+    n = n + 2
