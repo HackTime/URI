@@ -1,0 +1,30 @@
+
+SUBMISSÃO # 2241781
+
+Problema:
+    1007 - Diferença 
+Resposta:
+    Accepted 
+Linguagem:
+    C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s] 
+Tempo:
+    0.000s 
+Tamanho:
+    207 Bytes 
+Memória:
+    - 
+Submissão:
+    26/05/2015 15:57:40 
+
+CÓDIGO FONTE
+#include <cstdio>
+
+int main(){
+    int a, b, c, d;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
+    scanf("%d", &d);
+    printf("DIFERENCA = %d\n", a * b - c * d);
+    return 0;
+}
