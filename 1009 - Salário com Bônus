@@ -1,0 +1,31 @@
+
+SUBMISSÃO # 2349915
+
+Problema:
+    1009 - Salário com Bônus 
+Resposta:
+    Accepted 
+Linguagem:
+    C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s] 
+Tempo:
+    0.000s 
+Tamanho:
+    251 Bytes 
+Memória:
+    - 
+Submissão:
+    15/06/2015 09:06:52 
+
+CÓDIGO FONTE
+#include <iostream>
+#include <iomanip>
+#include <string>
+using namespace std;
+
+int main() {
+    string s;
+    float a, b;
+    while(cin >> s >> a >> b) {
+        cout << "TOTAL = R$ " << fixed << setprecision(2) << a+b*0.15 << endl;
+    }
+}
