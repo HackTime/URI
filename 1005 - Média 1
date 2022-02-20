@@ -1,0 +1,23 @@
+
+SUBMISSÃO # 7211957
+
+Problema:
+    1005 - Média 1 
+Resposta:
+    Accepted 
+Linguagem:
+    Python 2.7 (Python 2.7.6) [+1s] 
+Tempo:
+    0.012s 
+Tamanho:
+    99 Bytes 
+Memória:
+    - 
+Submissão:
+    02/06/2017 15:56:53 
+
+CÓDIGO FONTE
+x = float(raw_input())
+y = float(raw_input())
+f5 = ((x*3.5)+(y*7.5))/11
+print 'MEDIA = %.5f' %f5
