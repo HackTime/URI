@@ -1,0 +1,26 @@
+
+SUBMISSÃO # 8258339
+
+Problema:
+    1153 - Fatorial Simples 
+Resposta:
+    Accepted 
+Linguagem:
+    Python 2.7 (Python 2.7.6) [+1s] 
+Tempo:
+    0.020s 
+Tamanho:
+    112 Bytes 
+Memória:
+    - 
+Submissão:
+    28/09/2017 16:29:01 
+
+CÓDIGO FONTE
+n = int(raw_input())
+def fat(n):
+  if n == 1:
+    return 1
+  else :
+    return n * fat(n - 1)
+print fat(n)
