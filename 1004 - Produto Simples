@@ -1,0 +1,22 @@
+
+SUBMISSÃO # 7211777
+
+Problema:
+    1004 - Produto Simples 
+Resposta:
+    Accepted 
+Linguagem:
+    Python 2.7 (Python 2.7.6) [+1s] 
+Tempo:
+    0.012s 
+Tamanho:
+    64 Bytes 
+Memória:
+    - 
+Submissão:
+    02/06/2017 15:45:36 
+
+CÓDIGO FONTE
+x = int(raw_input())
+y = int(raw_input())
+print 'PROD =',(x*y)
