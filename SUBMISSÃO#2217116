@@ -1,0 +1,26 @@
+
+SUBMISSÃO # 2217116
+
+Problema:
+    1035 - Teste de Seleção 1 
+Resposta:
+    Runtime error 
+Linguagem:
+    Python 2.7 (Python 2.7.6) [+1s] 
+Tempo:
+    0.008s 
+Tamanho:
+    130 Bytes 
+Memória:
+    - 
+Submissão:
+    22/05/2015 15:12:15 
+
+CÓDIGO FONTE
+5,6,7,8 = map(int, input().split())
+
+'''
+Escreva a sua solução aqui
+Code your solution here
+Escriba su solución aquí
+'''
