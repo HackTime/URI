@@ -1,0 +1,32 @@
+
+SUBMISSÃO # 2349979
+
+Problema:
+    1026 - Carrega ou não Carrega? 
+Resposta:
+    Accepted 
+Linguagem:
+    C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s] 
+Tempo:
+    0.088s 
+Tamanho:
+    209 Bytes 
+Memória:
+    - 
+Submissão:
+    15/06/2015 09:23:42 
+
+CÓDIGO FONTE
+#include <stdio.h>
+
+int main(){
+    unsigned int n, m;
+    
+    
+    while(scanf("%u %u", &n, &m) != EOF){
+                    
+                    printf("%u\n", n ^ m);
+    }
+    
+    return 0;
+}
