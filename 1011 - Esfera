@@ -1,0 +1,29 @@
+
+SUBMISSÃO # 2349917
+
+Problema:
+    1011 - Esfera 
+Resposta:
+    Accepted 
+Linguagem:
+    C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s] 
+Tempo:
+    0.000s 
+Tamanho:
+    221 Bytes 
+Memória:
+    - 
+Submissão:
+    15/06/2015 09:07:09 
+
+CÓDIGO FONTE
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double pi = 3.14159;
+    int r;
+    while(cin >> r)
+        cout << "VOLUME = " << fixed << setprecision(3) << pi*r*r*r*4/3 << endl;
+}
