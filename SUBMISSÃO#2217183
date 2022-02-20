@@ -1,0 +1,24 @@
+SUBMISSÃO # 2217183
+
+Problema:
+    1035 - Teste de Seleção 1 
+Resposta:
+    Compilation error 
+Linguagem:
+    C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s] 
+Tempo:
+    0.000s 
+Tamanho:
+    14 Bytes 
+Memória:
+    - 
+Submissão:
+    22/05/2015 15:17:33 
+
+Compilation Error
+
+Main.cpp:1:1: error: expected unqualified-id before numeric constant
+5,6,7,8 = (map
+^
+CÓDIGO FONTE
+5,6,7,8 = (map
