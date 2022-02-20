@@ -1,0 +1,28 @@
+
+SUBMISSÃO # 2241171
+
+Problema:
+    1003 - Soma Simples 
+Resposta:
+    Accepted 
+Linguagem:
+    C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s] 
+Tempo:
+    0.000s 
+Tamanho:
+    144 Bytes 
+Memória:
+    - 
+Submissão:
+    26/05/2015 14:15:45 
+
+CÓDIGO FONTE
+#include <cstdio>
+
+int main(){
+    int a, b;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    printf("SOMA = %d\n", a + b);
+    return 0;
+}
