@@ -1,0 +1,27 @@
+
+SUBMISSÃO # 2241188
+
+Problema:
+    1014 - Consumo 
+Resposta:
+    Accepted 
+Linguagem:
+    C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s] 
+Tempo:
+    0.000s 
+Tamanho:
+    131 Bytes 
+Memória:
+    - 
+Submissão:
+    26/05/2015 14:18:38 
+
+CÓDIGO FONTE
+#include <cstdio>
+
+int main(){
+    float a, b;
+    scanf("%f", &a);
+    scanf("%f", &b);
+    printf("%.3f km/l\n", a / b);
+}
