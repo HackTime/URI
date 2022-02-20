@@ -1,0 +1,24 @@
+
+SUBMISSÃO # 17190454
+
+Problema:
+    1019 - Conversão de Tempo 
+Resposta:
+    Accepted 
+Linguagem:
+    Python 3.4 (Python 3.4.3) [+1s] 
+Tempo:
+    0.016s 
+Tamanho:
+    194 Bytes 
+Memória:
+    - 
+Submissão:
+    02/03/2020 12:38:25 
+
+CÓDIGO FONTE
+b = int(input())
+horas = int(b / 60 / 60)
+minutos = int((b / 60) - (horas * 60))
+segundos = int(b - ((horas * 60 * 60) + (minutos * 60)))
+print(str(horas)+':'+str(minutos)+':'+str(segundos))
