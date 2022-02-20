@@ -1,0 +1,33 @@
+
+SUBMISSÃO # 2349984
+
+Problema:
+    1039 - Flores de Fogo 
+Resposta:
+    Accepted 
+Linguagem:
+    C++ (g++ 4.8.5, -std=c++11 -O2 -lm) [+0s] 
+Tempo:
+    0.000s 
+Tamanho:
+    379 Bytes 
+Memória:
+    - 
+Submissão:
+    15/06/2015 09:24:33 
+
+CÓDIGO FONTE
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+    int r1,x1,y1,r2,x2,y2;
+    float distancia;
+    
+    while(scanf("%d %d %d %d %d %d",&r1,&x1,&y1,&r2,&x2,&y2) != EOF){
+                    distancia = sqrt(pow(x2-x1,2) + pow(y2-y1,2));
+                    if(r1 >= distancia+r2) printf("RICO\n");
+                    else printf("MORTO\n");
+    }
+    return 0;
+}
