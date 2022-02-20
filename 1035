@@ -1,0 +1,29 @@
+
+SUBMISSÃO # 2218195
+
+Problema:
+    1035 - Teste de Seleção 1 
+Resposta:
+    Accepted 
+Linguagem:
+    Python 3.4 (Python 3.4.3) [+1s] 
+Tempo:
+    0.020s 
+Tamanho:
+    268 Bytes 
+Memória:
+    - 
+Submissão:
+    22/05/2015 16:46:41 
+
+CÓDIGO FONTE
+linha = input()
+partes = linha.split()
+a = int(partes[0])
+b = int(partes[1])
+c = int(partes[2])
+d = int(partes[3])
+if b > c and d > a and (c+d) > (a+b) and c > 0 and d > 0 and a % 2 == 0 :
+    print ("Valores aceitos")
+else :
+    print ("Valores nao aceitos")
