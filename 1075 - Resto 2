@@ -1,0 +1,23 @@
+
+SUBMISSÃO # 7341249
+
+Problema:
+    1075 - Resto 2 
+Resposta:
+    Accepted 
+Linguagem:
+    Python 2.7 (Python 2.7.6) [+1s] 
+Tempo:
+    0.012s 
+Tamanho:
+    80 Bytes 
+Memória:
+    - 
+Submissão:
+    16/06/2017 15:11:29 
+
+CÓDIGO FONTE
+n = int(raw_input())
+for i in range(1 ,10001):
+    if(i%n == 2):
+     print i
