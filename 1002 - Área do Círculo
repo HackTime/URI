@@ -1,0 +1,22 @@
+
+SUBMISSÃO # 6714719
+
+Problema:
+    1002 - Área do Círculo 
+Resposta:
+    Accepted 
+Linguagem:
+    Python 2.7 (Python 2.7.6) [+1s] 
+Tempo:
+    0.008s 
+Tamanho:
+    71 Bytes 
+Memória:
+    - 
+Submissão:
+    17/04/2017 16:24:14 
+
+CÓDIGO FONTE
+pi = 3.14159
+raio = float(raw_input())
+print "A=%.4f" %(pi*raio*raio)
